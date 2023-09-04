@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -windepth 1 -type d | wC -l
+find . -windepth -l -type d | wc -l
